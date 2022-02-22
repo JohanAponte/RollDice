@@ -70,11 +70,11 @@ class MainActivity : AppCompatActivity() {
         return drawableResource
     }
 
+}
 
-    class Dice(private val numSides: Int) {
+class Dice(private val numSides: Int) {
 
-        fun roll(): Int {
-            return (1..numSides).random()
-        }
+    fun roll(): Int {
+        return (1..numSides).random()
     }
 }
